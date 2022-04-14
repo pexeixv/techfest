@@ -1,0 +1,20 @@
+---
+layout: 'base.njk'
+
+---
+
+<div class="mx-auto rounded-xl p-5 max-w-screen-md py-16">
+    <h3 class="text-3xl font-black uppercase">{{ name }}</h3>
+    <h4 class="font-bold text-lg mt-5">Faculty Leader</h4>
+    <h4 class="">{{ faculty }}</h4>
+    <h4 class="font-bold text-lg mt-5">Team Members</h4>
+    <div class="prose prose-invert">
+        {{ content | safe }}
+    </div>
+    {% if link %}
+        <a href="{{ team.data.link }}" class="bg-[#c0ff6a] text-black rounded-full p-2 w-full flex items-center justify-center gap-2 mt-10 hover:opacity-90 transition-all font-bold">
+            <i class="fab fa-whatsapp"></i>
+            <span>Join group</span>
+        </a>
+    {% endif %}
+</div>
