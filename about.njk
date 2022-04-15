@@ -33,14 +33,21 @@ title: About | Techfest 2.0
                         <h4 class="text-sm text-neutral-300">
                             {{ person.title }}
                         </h4>
-                        <div class="flex-1 flex items-end">
+                        <div class="flex-1 flex items-end gap-2">
                             <a
                                 href="//wa.me/91{{ person.phone }}"
                                 class="bg-[#c0ff6a] text-black rounded-full p-2 flex items-center gap-2 mt-auto hover:opacity-90 transition-all font-bold
-                                    w-fit px-5">
+                                    w-fit">
                                 <i class="fab fa-whatsapp"></i>
-                                <span class="text-sm">Contact</span>
                             </a>
+                            {% if person.instagram %}
+                                <a
+                                    href="//instagr.am/{{ person.instagram }}"
+                                    class="bg-[#c0ff6a] text-black rounded-full p-2 flex items-center gap-2 mt-auto hover:opacity-90 transition-all font-bold
+                                        w-fit aspect-square">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
