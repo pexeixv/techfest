@@ -5,21 +5,21 @@ title: Teams | Techfest 2.0
 
 <section>
     <div class="container mx-auto px-5">
-        <h2 class="text-5xl font-black text-center py-24">
+        <h2 class="text-5xl font-black text-center py-16 lg:py-24">
             Teams
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 pb-16">
             {% for team in collections.teams %}
                 <div class="bg-neutral-900 rounded-xl p-5">
                     <h3 class="text-3xl font-black uppercase">{{ team.data.name }}</h3>
-                    <h4 class="font-bold text-lg mt-5">Faculty Leader</h4>
+                    <h4 class="font-bold text-lg mt-5">Faculty Incharge</h4>
                     <h4 class="">{{ team.data.faculty }}</h4>
                     <h4 class="font-bold text-lg mt-5">Team Members</h4>
-                    <div class="prose prose-invert">
+                    <div class="prose prose-sm lg:prose-base prose-invert">
                         {{ team.templateContent | safe }}
                     </div>
                     {% if team.data.link %}
-                        <a href="{{ team.data.link }}" class="bg-[#c0ff6a] text-black rounded-full p-2 w-full flex items-center justify-center gap-2 mt-10 hover:opacity-90 transition-all font-bold">
+                        <a href="{{ team.data.link }}" class="bg-techfest text-black rounded-full p-2 w-full flex items-center justify-center gap-2 mt-10 hover:opacity-90 transition-all font-bold">
                             <i class="fab fa-whatsapp"></i>
                             <span>Join group</span>
                         </a>
