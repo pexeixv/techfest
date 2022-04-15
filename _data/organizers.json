@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Dikshita Aroskar",
+        "title": "Faculty representative",
+        "image": "//via.placeholder.com/125",
+        "phone": "8208132178"
+    },
+    {
+        "name": "Ashweta Fondekar",
+        "title": "Faculty representative",
+        "image": "//via.placeholder.com/125",
+        "phone": "9158770617"
+    },
+    {
+        "name": "Saiprasad Naik",
+        "title": "Student representative",
+        "image": "/img/organizers/saiprasad.jpg",
+        "phone": "9604944750"
+    },
+    {
+        "name": "Gavin Pereira",
+        "title": "Student organizer",
+        "image": "/img/organizers/gavin.jpg",
+        "phone": "8888253992"
+    },
+    {
+        "name": "Karina Fernandes",
+        "title": "Student organizer",
+        "image": "/img/organizers/karina.jpg",
+        "phone": "7757885218"
+    },
+    {
+        "name": "Rahul Morajker",
+        "title": "Student organizer",
+        "image": "/img/organizers/rahul.jpg",
+        "phone": "9518707359"
+    },
+    {
+        "name": "Shania Gracias",
+        "title": "Student organizer",
+        "image": "/img/organizers/shania.jpg",
+        "phone": "8806587542"
+    },
+    {
+        "name": "Shivani Sawant",
+        "title": "Student organizer",
+        "image": "/img/organizers/shivani.jpg",
+        "phone": "9075062254"
+    },
+    {
+        "name": "Vaibhav Kalal",
+        "title": "Student organizer",
+        "image": "/img/organizers/vaibhav.jpg",
+        "phone": "9420162335"
+    }
+]
