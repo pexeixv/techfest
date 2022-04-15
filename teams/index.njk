@@ -18,12 +18,12 @@ title: Teams | Techfest 2.0
                     <div class="prose prose-sm lg:prose-base prose-invert">
                         {{ team.templateContent | safe }}
                     </div>
-                    {% if team.data.link %}
+                    <div class="flex-1 flex items-end">
                         <a href="{{ team.data.link }}" class="bg-techfest text-black rounded-full p-2 w-full flex items-center justify-center gap-2 mt-10 hover:opacity-90 transition-all font-bold">
                             <i class="fab fa-whatsapp"></i>
                             <span>Join group</span>
                         </a>
-                    {% endif %}
+                    </div>
                 </div>
             {% endfor %}
         </div>
