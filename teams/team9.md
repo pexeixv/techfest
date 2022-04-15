@@ -1,7 +1,7 @@
 ---
 name: Team 9
 tags: teams
-faculty: AMOGH
+faculty: AMOGH RITURKAR
 link: //chat.whatsapp.com/JpTpwUg0ne846wZSDXpIho
 layout: "team.njk"
 ---

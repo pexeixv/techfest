@@ -1,7 +1,7 @@
 ---
 name: Team 1
 tags: teams
-faculty: SWAPNIL
+faculty: SWAPNEEL SHASHIKANT NAIK
 link: //chat.whatsapp.com/E72NUcE8WKFCQOCSQlEIfv
 layout: "team.njk"
 ---
