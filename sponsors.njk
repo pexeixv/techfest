@@ -3,11 +3,25 @@ layout: base.njk
 title: Sponsors | Techfest 2.0
 ---
 
-<section>
+<section class="px-5">
     <div class="container mx-auto flex flex-col items-center">
         <h2 class="text-5xl font-black text-center py-16 lg:py-24">
-            Under Construction
+            Sponsers
         </h2>
-        <a href="/" class="hover:underline text-center">Go Home</a>
+        <div class="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {% for brand in sponsors %}
+                <a class="bg-neutral-900 rounded-lg flex flex-col p-5 items-center gap-3 text-center" href="{{ brand.link }}" target="_blank">
+                    <div class="flex-1 flex items-center justify-center ">
+                        {% if brand.image %}
+                            <img src="/img/sponsers/{{ brand.image }}" alt="{{ brand.name }}" title="{{ brand.name }}"/>
+                        {% endif %}
+                    </div>
+                    <h3 class="font-black text-2xl">{{ brand.name }}</h3>
+                    {% if brand.desc %}
+                        <p>{{ brand.desc }}</p>
+                    {% endif %}
+                </a>
+            {% endfor %}
+        </div>
     </div>
 </section>
