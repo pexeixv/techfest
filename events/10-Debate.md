@@ -1,6 +1,7 @@
 ---
 name: Debate
-simpleName: Debate
+title: Debate
+simpleName:
 venue: MSc IT Seminar Hall	
 day: 2
 time: 10:30 am - 11:30 am
@@ -11,6 +12,8 @@ coordinator2Phone: 7385086592
 registrationLink: https://forms.gle/nYu5VWZfoEVtFqMz9
 participants: Individual 
 layout: event.njk
+permalink: events/debate/
+tags: events
 ---
 
 ### Rules and Regulations 
@@ -35,4 +38,4 @@ Debate consists of 3 rounds
 
 - Please restrain from using offensive language.
 
-NOTE : Once debate starts no preparation time will be given for Counter Round. 
+**NOTE : Once debate starts no preparation time will be given for Counter Round. **

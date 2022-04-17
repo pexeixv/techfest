@@ -5,6 +5,34 @@ title: Events | Techfest 2.0
 
 <section class="px-5 pb-24">
     <div class="container mx-auto">
+        <h2 class="text-5xl font-black text-center   py-16 lg:py-24">
+            Event details
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-5">
+            {% for event in collections.events %}
+                <div class="bg-neutral-900 rounded-lg p-5 flex flex-col">
+                    <div class="flex-1">
+                        <h3 class="font-black text-2xl">{{ event.data.name }}</h3>
+                        <h4>
+                            Day {{ event.data.day }}</h4>
+                        <h4>
+                            {{ event.data.time }}</h4>
+                        <h4>
+                            {{ event.data.venue }}</h4>
+                    </div>
+                    <a
+                        href="../{{ event.data.permalink }}"
+                        class="bg-techfest text-black rounded-full p-2 w-full flex items-center justify-center mt-10 hover:opacity-90
+                            transition-all font-bold">
+                        View details
+                    </a>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<section class="px-5 pb-24">
+    <div class="container mx-auto">
         <h2 class="text-5xl font-black text-center  py-16 lg:py-24">
             Event schedule
         </h2>
@@ -26,17 +54,5 @@ title: Events | Techfest 2.0
                     </h3>
                     <img src="/img/tt/2.png" class="invert"></div>
                 </div>
-            </div>
-        </section>
-        <section class="px-5 pb-24">
-            <h2 class="text-5xl font-black text-center pt-10 pb-4">
-                Event details
-            </h2>
-            <div>
-                {% for event in collections.events %}
-                    <div>
-                        <h3>{{ event.name }}</h3>
-                    </div>
-                {% endfor %}
             </div>
         </section>

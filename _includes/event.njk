@@ -1,0 +1,113 @@
+---
+layout: base.njk
+---
+
+<section class="mx-auto px-5 pb-24">
+    <h2 class="text-5xl font-black text-center pt-16 lg:pt-24">
+        {{ name }}
+    </h2>
+    <h3 class="text-2xl font-bold text-center pb-8">({{ simpleName }})</h3>
+    <div class="py-4">
+        <h3 class="font-bold text-xl">
+            Venue:
+        </h3>
+        <h4>
+            {{ venue }}
+        </h4>
+    </div>
+    <div class="py-4">
+        <h3 class="font-bold text-xl">
+            Day {{ day }}
+        </h3>
+    </div>
+    <div class="py-4">
+        <h3 class="font-bold text-xl">
+            Time:
+        </h3>
+        <h4>
+            {{ time }}
+        </h4>
+    </div>
+    <div class="py-4">
+        <h3 class="font-bold text-xl">
+            Participants:
+        </h3>
+        <h4>
+            {{ participants }}
+        </h4>
+    </div>
+    <div class="py-4">
+        <h3 class="font-bold text-xl">
+            Cooridnators:
+        </h3>
+        <div class="flex items-center gap-3">
+            <h4>
+                {{ coordinator1Name }}
+            </h4>
+            <a
+                href="//wa.me/91{{ coordinator1Phone }}"
+                class="bg-techfest text-black rounded-full p-2 flex items-center gap-2 mt-auto hover:opacity-90 transition-all font-bold
+                    w-fit">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+        {% if coordinator2Name %}
+            <div class="flex items-center gap-3">
+                <h4>
+                    {{ coordinator2Name }}
+                </h4>
+                <a
+                    href="//wa.me/91{{ coordinator2Phone }}"
+                    class="bg-techfest text-black rounded-full p-2 flex items-center gap-2 mt-auto hover:opacity-90 transition-all font-bold
+                        w-fit">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        {% endif %}
+        {% if coordinator3Name %}
+            <div class="flex items-center gap-3">
+                <h4>
+                    {{ coordinator3Name }}
+                </h4>
+                <a
+                    href="//wa.me/91{{ coordinator3Phone }}"
+                    class="bg-techfest text-black rounded-full p-2 flex items-center gap-2 mt-auto hover:opacity-90 transition-all font-bold
+                        w-fit">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        {% endif %}
+        {% if coordinator4Name %}
+            <div class="flex items-center gap-3">
+                <h4>
+                    {{ coordinator4Name }}
+                </h4>
+                <a
+                    href="//wa.me/91{{ coordinator4Phone }}"
+                    class="bg-techfest text-black rounded-full p-2 flex items-center gap-2 mt-auto hover:opacity-90 transition-all font-bold
+                        w-fit">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        {% endif %}
+        {% if coordinator5Name %}
+            <div class="flex items-center gap-3">
+                <h4>
+                    {{ coordinator5Name }}
+                </h4>
+                <a
+                    href="//wa.me/91{{ coordinator5Phone }}"
+                    class="bg-techfest text-black rounded-full p-2 flex items-center gap-2 mt-auto hover:opacity-90 transition-all font-bold
+                        w-fit">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        {% endif %}
+    </div>
+    <div class="prose prose-sm lg:prose-base prose-invert mx-auto">
+        {{ content | safe }}
+    </div>
+    <a target="_blank" href="{{ registrationLink }}" class="bg-techfest text-black rounded-full p-2 w-full flex items-center justify-center gap-2 mt-10 hover:opacity-90 transition-all font-bold">
+        Register Now
+    </a>
+</section>

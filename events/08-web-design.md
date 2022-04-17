@@ -1,6 +1,7 @@
 ---
-name: 
-simpleName: Web Designing
+name: Website Designing
+title: Website Designing
+simpleName: 
 venue: BSc Lab 1 & 2
 day: 2
 time: 9:30 am - 11:30 am
@@ -9,7 +10,10 @@ coordinator1Phone: 8830130990
 coordinator2Name: Danrino Cardozo
 coordinator2Phone: 8329499073	
 registrationLink: 
-participants: Individual or Duo
+participants: 1-2
+layout: event.njk
+permalink: events/web-design/
+tags: events
 ---
 
 ### Rules and Regulations 
