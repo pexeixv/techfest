@@ -9,11 +9,12 @@ coordinator1Name: Gautami Samant
 coordinator1Phone: 9168218747
 coordinator2Name: Manasi Athalye
 coordinator2Phone: 8805132170
-registrationLink:
+registrationLink: https://forms.gle/juXUHYdaNSE9WRdX6
 participants: All
 layout: event.njk
 permalink: events/ice-breaker/
 tags: events
+index: 2
 ---
 
 ### Rules and Regulations
