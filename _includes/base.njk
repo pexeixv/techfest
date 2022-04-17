@@ -6,20 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ title }}</title>
         <link rel="shortcut icon" href="/img/chowgules.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+        <link rel="stylesheet" href="/css/tailwind.css">
     </head>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <script src="//cdn.tailwindcss.com?plugins=typography"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        techfest: '#c0ff6a'
-                    }
-                }
-            }
-        }
-    </script>
     <body class="bg-black text-white flex flex-col min-h-screen">
         {% include 'header.njk' %}
         <div class="flex-1 flex flex-col">

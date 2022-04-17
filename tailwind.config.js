@@ -1,9 +1,11 @@
 module.exports = {
-  content: [
-    '*.njk'
-  ],
+  content: ["*.njk", "**/*.njk"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        techfest: "#c0ff6a",
+      },
+    },
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/typography")],
+};

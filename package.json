@@ -5,7 +5,10 @@
   "main": ".eleventy.js",
   "scripts": {
     "dev": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "tw": "tailwindcss -i ./css/css.css -o ./css/tailwind.css",
+    "tww": "tailwindcss -i ./css/css.css -o ./css/tailwind.css -w",
+    "twm": "tailwindcss -i ./css/css.css -o ./css/tailwind.css -m"
   },
   "keywords": [],
   "author": "",
