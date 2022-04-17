@@ -4,25 +4,39 @@ title: Events | Techfest 2.0
 ---
 
 <section class="px-5 pb-24">
-    <div class="container mx-auto flex flex-col lg:flex-row justify-center gap-10 items-center">
-        <div class="flex flex-col items-center">
+    <div class="container mx-auto">
+        <h2 class="text-5xl font-black text-center  py-16 lg:py-24">
+            Event schedule
+        </h2>
+        <div class=" flex flex-col lg:flex-row justify-center gap-10 items-center">
+            <div class="flex flex-col items-center">
+                <h2 class="text-3xl font-black text-center pt-10 pb-4">
+                    Day 1
+                </h2>
+                <h3 class="mb-5 text-center">
+                    22 April 2022
+                </h3>
+                <img src="/img/tt/1.png" class="invert"></div>
+                <div class="flex flex-col items-center ">
+                    <h2 class="text-3xl font-black text-center pt-10 pb-4">
+                        Day 2
+                    </h2>
+                    <h3 class="mb-5 text-center">
+                        23 April 2022
+                    </h3>
+                    <img src="/img/tt/2.png" class="invert"></div>
+                </div>
+            </div>
+        </section>
+        <section class="px-5 pb-24">
             <h2 class="text-5xl font-black text-center pt-10 pb-4">
-                Day 1
+                Event details
             </h2>
-            <h3 class="mb-5 text-center">
-                22 April 2022
-            </h3>
-            <img src="/img/tt/1.png" class="invert">
-        </div>
-        <div class="flex flex-col items-center ">
-            <h2 class="text-5xl font-black text-center pt-10 pb-4">
-                Day 2
-            </h2>
-            <h3 class="mb-5 text-center">
-                23 April 2022
-            </h3>
-            <img src="/img/tt/2.png" class="invert">
-        </div>
-    </div>
-    <h2 class="text-center mt-16">Individual event details will be updated soon.</h2>
-</section>
+            <div>
+                {% for event in collections.events %}
+                    <div>
+                        <h3>{{ event.name }}</h3>
+                    </div>
+                {% endfor %}
+            </div>
+        </section>
