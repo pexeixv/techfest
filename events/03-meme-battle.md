@@ -27,13 +27,16 @@ All memes that cover topics will be accepted. Memes may be submitted in any lang
 - Image cannot contain any watermark, no videos or gifs are accepted.
 - The meme should be of your own, the participant can use the existing meme templates or if it is sourced from outside it should not have any copyright restrictions.
 - Your format must be in PDF or JPEG.
-- No overused programming cliche memes.
+- No overused cliche programming topics like:
+  - Google Chrome being a RAM hog
+  - Laptop heating due to Android Studio
+  - Missing semicolons
 
 ### Topics
 
 - Memes on Programming Topic.
 - Memes on Techfest Event.
-- Memes on Chowgule College. (Respectful memes only.)
+- Memes on Chowgule College. (Respectful memes only)
 
 ### Judging Criteria:
 
