@@ -60,3 +60,9 @@ tags: events
    - Pdf file
    - File name should be renamed to team name
    - Format eg: Raging_Thunder.pdf
+
+## Points distribution
+
+- 1st place: 50 points
+- 2nd place: 35 points
+- Participation: 20 points

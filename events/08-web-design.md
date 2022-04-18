@@ -32,3 +32,9 @@ tags: events
 
 - The emphasis is on the team creating the website. Therefore, any team determined to be cheating, interfering with another team, will suffer a severe point deduction or be immediately disqualified from the competition.
   Teams are only allowed to use HTML, CSS and JavaScript.
+
+## Points distribution
+
+- 1st place: 50 points
+- 2nd place: 35 points
+- Participation: 20 points

@@ -45,6 +45,12 @@ tags: events
 - Participants should also use the relevant editing app or software.(eg filmora go, Premier Pro)
 
 - Participants can do a voice over and can add any music of their choice. (only the participants should do the voice over)
-- No adding of graphics or text in the film.  
+- No adding of graphics or text in the film.
 
 - The Ad film can be shot in portrait mode or landscape mode.
+
+## Points distribution
+
+- 1st place: 50 points
+- 2nd place: 35 points
+- Participation: 20 points

@@ -34,3 +34,9 @@ Treasure hunts are information-based scavenger hunts, or puzzle hunts, in which 
 - Algorithms will be explained by the coordinators.
 - Misbehaving with any coordinators or volunteers will lead to direct disqualification.
 - All decisions will be taken by higher authority.
+
+## Points distribution
+
+- 1st place: 50 points
+- 2nd place: 35 points
+- Participation: 20 points

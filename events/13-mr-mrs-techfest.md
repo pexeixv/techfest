@@ -22,7 +22,7 @@ permalink: events/mr-mrs-techfest/
 tags: events
 ---
 
-### Rules and Regulations 
+### Rules and Regulations
 
 - Contestants should be in formal wear.
 
@@ -35,3 +35,9 @@ tags: events
 - Before the start of the third round, the judges will select the top 4 contestants (2 boys, 2 girls) to move to the final round where the judges will question each one.
 
 - Finally after much consideration and discussion by the judges the winners of Mr and Miss Techfest will be announced.
+
+## Points distribution
+
+- 1st place: 50 points
+- 2nd place: 35 points
+- Participation: 20 points

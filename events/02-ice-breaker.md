@@ -28,3 +28,9 @@ index: 2
   1. Class
   1. Specialty of each student.
 - Theme of the event is to be decided by the team itself. It can be anything (For example Introducing yourself in Bollywood/Hollywood characters style or anything fun).
+
+## Points distribution
+
+- 1st place: 50 points
+- 2nd place: 35 points
+- Participation: 20 points

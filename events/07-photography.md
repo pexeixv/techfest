@@ -16,7 +16,7 @@ permalink: events/photography/
 tags: events
 ---
 
-### Rules and Regulations 
+### Rules and Regulations
 
 - Can use only one model if needed.
 
@@ -26,3 +26,8 @@ tags: events
 
 - Editing of image is not allowed.
 
+## Points distribution
+
+- 1st place: 50 points
+- 2nd place: 35 points
+- Participation: 20 points

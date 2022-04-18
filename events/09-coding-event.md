@@ -5,7 +5,7 @@ simpleName: Coding event
 venue: BSc Lab 1
 day: 2
 time: 9:30 am - 11:30 am
-coordinator1Name: Joshua Pereira	
+coordinator1Name: Joshua Pereira
 coordinator1Phone: 9527709990
 coordinator2Name: Norman Mascarenhas
 coordinator2Phone: 7744838079
@@ -16,13 +16,18 @@ permalink: events/coding-event/
 tags: events
 ---
 
-### Rules and Regulations 
+### Rules and Regulations
 
 - 10 programs will be given which can be written in any programming language.
- 
-- Top 2  completes the most programs win and remaining get participation points. 
+
+- Top 2 completes the most programs win and remaining get participation points.
 
 - Duration: 1 hour
 
 - Internet access will be given.
 
+## Points distribution
+
+- 1st place: 50 points
+- 2nd place: 35 points
+- Participation: 20 points

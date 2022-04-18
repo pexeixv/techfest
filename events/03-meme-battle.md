@@ -45,3 +45,9 @@ All memes that cover topics will be accepted. Memes may be submitted in any lang
 - Humor of the meme
 - Originality of the meme
 - Relevance to the meme
+
+## Points distribution
+
+- 1st place: 50 points
+- 2nd place: 35 points
+- Participation: 20 points
