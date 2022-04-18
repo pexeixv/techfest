@@ -12,7 +12,7 @@ coordinator2Phone: 9067704001
 coordinator3Name: Alzaahid Nadaf
 coordinator3Phone: 9096245373
 registrationLink: https://forms.gle/r4b8N7mwPpdFm93x8
-participants: Max 8
+participants: Max 6
 layout: event.njk
 permalink: events/geeks-hub/
 tags: events
