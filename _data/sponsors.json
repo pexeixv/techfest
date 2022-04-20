@@ -1,5 +1,10 @@
 [
-    
+    {
+        "name": "Imagine Works",
+        "link": "//imagine-works.com",
+        "image": "imagine-works.png",
+        "desc": "Title Sponser"
+    },
     {
         "name": "Gavin Pereira",
         "link": "//gavinpereira.in",
