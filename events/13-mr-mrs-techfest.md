@@ -25,15 +25,10 @@ tags: events
 ### Rules and Regulations
 
 - Contestants should be in formal wear.
-
 - There will be 3 unique rounds on which the contestants will be judged.
-
 - The first round will consist of a ramp walk followed by the introduction of each contestant.
-
-- The second round will be a show of talents and aspirations of each contestant.
-
-- Before the start of the third round, the judges will select the top 4 contestants (2 boys, 2 girls) to move to the final round where the judges will question each one.
-
+- The second round will be a talent round where contestants will have 2-5 mins to give a brief description about your talents and accomplishments. It can be whatever you want to be.
+- Before the start of the third round, the judges will select the top 4 contestants (2 boys, 2 girls) to move to the final round where the judges will question each one wrt their personality and aspirations.
 - Finally after much consideration and discussion by the judges the winners of Mr and Miss Techfest will be announced.
 
 ## Points distribution
