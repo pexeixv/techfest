@@ -1,4 +1,11 @@
 [
+    
+    {
+        "name": "Gavin Pereira",
+        "link": "//gavinpereira.in",
+        "image": "gavin-pereira.png",
+        "desc": "Design & Development Partner"
+    },
     {
         "name": "Brandema",
         "link": "//instagr.am/brandemaspcc",
@@ -6,9 +13,16 @@
         "desc": "Social Media & Promotion Partner"
     },
     {
-        "name": "Gavin Pereira",
-        "link": "//gavinpereira.in",
-        "image": "gavin-pereira.png",
-        "desc": "Design & Development Partner"
+        "name": "Kapslock",
+        "link": "//kapslock.in",
+        "image": "kapslock.png",
+        "desc": ""
+    },
+    {
+        "name": "SJ Innovation",
+        "link": "//sjinnovation.com",
+        "image": "sj-innovation.png",
+        "desc": ""
     }
+
 ]
