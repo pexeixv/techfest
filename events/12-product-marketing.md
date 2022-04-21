@@ -26,7 +26,7 @@ tags: events
 ### Rules for poster making
 
 1. Participants will be given a design template, but they will have to come up with the ad copy for it
-2. Plagarism Checks will be done on the ad copies, if it directly copied from a resource, points will be cut.
+2. Plagiarism Checks will be done on the ad copies, if it directly copied from a resource, points will be cut.
 3. No word limit and can use fonts of your choice.
 4. Participants should have the relevant app or software to add the ad copy on the template (eg: Canva, Photoshop) .
 5. No changes should be made on the template .
