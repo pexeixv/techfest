@@ -26,6 +26,8 @@ tags: events
 
 - Internet access will be given.
 
+- Own laptops allowed.
+
 ## Points distribution
 
 - 1st place: 50 points
